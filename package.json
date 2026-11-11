@@ -1,0 +1,1 @@
+{"dependencies":{"dotenv":"^17.2.3","express":"^5.1.0"},"description":"PayPilot — AI chat agent that turns plain-language requests into PayPal invoices (PayPal AI Hackathon).","engines":{"node":">=24"},"main":"server.js","name":"paypilot","scripts":{"start":"node server.js"},"type":"commonjs","version":"1.0.0"}
