@@ -10,7 +10,7 @@ gh auth login            # sign in to GitHub in the browser (choose HTTPS + your
 gh repo create paypilot --public --source=. --remote=origin --push
 ```
 
-Then confirm the repo is public at `https://github.com/<YOUR-USERNAME>/paypilot` and put that URL in `SUBMISSION.md` (replace `<YOUR-USERNAME>`).
+Then confirm the repo is public at `https://github.com/KembangPasir-dot/paypilot` and put that URL in `SUBMISSION.md` (replace `KembangPasir-dot`).
 
 ## Option B — GitHub website + git
 
@@ -19,7 +19,7 @@ Then confirm the repo is public at `https://github.com/<YOUR-USERNAME>/paypilot`
 
 ```bash
 cd ~/workspace/paypal-hackathon/paypilot
-git remote add origin https://github.com/<YOUR-USERNAME>/paypilot.git
+git remote add origin https://github.com/KembangPasir-dot/paypilot.git
 git push -u origin main
 ```
 
