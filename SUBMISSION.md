@@ -34,7 +34,7 @@ Node.js, Express, PayPal Invoicing API v2, Google Gemini API, JavaScript, HTML, 
 ## Links
 
 - **Public repo:** https://github.com/KembangPasir-dot/paypilot
-- **Demo video:** https://www.youtube.com/watch?v=VjSsZMDlApo (Unlisted, 24 seconds; also in the repo as `demo-video.mp4`)
+- **Demo video:** https://www.youtube.com/watch?v=nVKTmHOcg2E (Unlisted, 72 seconds; also in the repo as `demo-video.mp4`)
 - **Live demo / run instructions:** clone the repo, `npm install`, copy `.env.example` to `.env` and add a `GEMINI_API_KEY` (Google AI Studio, free tier works), then `npm start` → http://localhost:3000. No PayPal credentials needed: the app runs in mock mode and the full chat → invoice → payment-link flow works end-to-end. With PayPal sandbox credentials (`PAYPAL_CLIENT_ID` / `PAYPAL_CLIENT_SECRET`, `PAYPAL_MOCK=false`) it uses the real sandbox Invoicing API — the sandbox app needs the Invoicing permission enabled in the Developer Dashboard. The demo video shows the live sandbox flow (USD invoice — PayPal Invoicing does not accept IDR).
 
 ## Submission checklist (Devpost requirements)
